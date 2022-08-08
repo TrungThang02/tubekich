@@ -1,0 +1,58 @@
+.swiper {
+    margin-top: 160px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    height: 500px;
+    background-color: 
+    #f2f5f8;
+
+}
+
+
+
+.swiper-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+
+}
+
+
+.swiper-pointer-events {
+    touch-action: pan-y
+}
+
+.swiper-pointer-events.swiper-vertical {
+    touch-action: pan-x
+}
+
+.swiper-slide {
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    transition-property: transform;
+}
+
+.swiper h2{
+    text-align: center;
+    padding-top: 30px;
+    color: #727478;
+}
+.swiper p{
+    text-align: center;
+    padding-top: 30px;
+    color: #727478;
+}
+
+.text__slide{
+  
+}
